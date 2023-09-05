@@ -1,0 +1,12 @@
+set nocompatible
+filetype off
+
+set rtp+=/vundle/Vundle.vim
+call vundle#begin('/vundle')
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'neoclide/coc.nvim'
+call vundle#end()
+filetype plugin indent on
+syntax on
+
+set tagfunc=CocTagFunc
